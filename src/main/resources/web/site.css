@@ -73,10 +73,14 @@ footer a, footer a:visited {
     flex-shrink: 0;
     width: 200px;
     max-width: 90%;
-    border: solid 1px black;
+    border: solid 1px #dadada;
     margin: 5px;
     background-size: cover;
     height: 200px;
+     box-shadow: -10px 10px   5px rgba(0,0,0,0.6);
+  -moz-box-shadow: -10px 10px   5px rgba(0,0,0,0.6);
+  -webkit-box-shadow: -10px 10px   5px rgba(0,0,0,0.6);
+  -o-box-shadow: -10px 10px   5px rgba(0,0,0,0.6);
 }
 
 .app-item .links {
